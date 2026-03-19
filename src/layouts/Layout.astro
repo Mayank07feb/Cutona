@@ -1,0 +1,88 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+const {
+  title = "Nexsas",
+  description = "Nexsas - Software, SaaS & Startup Tailwind Template",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Basic -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>{title}</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={description} />
+    <meta
+      name="keywords"
+      content="SaaS templates, HTML templates, Tailwind CSS templates, startup templates, web application templates"
+    />
+    <meta name="author" content="Nexsas" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="/images/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="/images/og-image.jpg" />
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/main.css" />
+  </head>
+
+  <body class="bg-background-3 dark:bg-background-7 overflow-x-hidden">
+    <!-- Header -->
+    <Header />
+
+    <!-- Page Content -->
+    <slot />
+
+    <!-- Footer -->
+    <Footer />
+
+    <!-- Scripts - Added is:inline to all script tags -->
+    <script is:inline src="/vendor/swiper.min.js"></script>
+    <script is:inline src="/vendor/leaflet.min.js"></script>
+    <script is:inline src="/vendor/vanilla-infinite-marquee.min.js"></script>
+    <script is:inline src="/vendor/split-text.min.js"></script>
+    <script is:inline src="/vendor/gsap.min.js"></script>
+    <script is:inline src="/vendor/scroll-trigger.min.js"></script>
+    <script is:inline src="/vendor/draw-svg.min.js"></script>
+    <script is:inline src="/vendor/motionpathplugin.min.js"></script>
+    <script is:inline src="/vendor/lenis.min.js"></script>
+    <script is:inline src="/vendor/springer.min.js"></script>
+    <script is:inline src="/vendor/number-counter.js"></script>
+    <script is:inline src="/vendor/stack-card.min.js"></script>
+    <script is:inline src="/assets/main.js"></script>
+  </body>
+</html>
