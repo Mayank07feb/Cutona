@@ -1,88 +1,112 @@
 // src/data/seoData.js - Centralized SEO and meta data
 export const seoData = {
   home: {
-    meta_title: "Mayank Raj - Graphic Designer & Visual Brand Strategist",
+    meta_title:
+      "Cutona - Smart Business Solutions | GST Billing & Room Booking Software",
     meta_description:
-      "Professional graphic designer specializing in branding, digital creatives, and visual storytelling. 5+ years experience creating designs that work.",
+      "Cutona provides innovative business solutions including GST billing software, room booking systems, and smart tech solutions for modern businesses.",
     current_page: "home",
   },
 
   about: {
-    meta_title: "About Mayank Raj - Graphic Designer",
+    meta_title: "About Cutona - Innovating Business Solutions",
     meta_description:
-      "Learn about my design philosophy, experience, and approach to creating meaningful visual solutions for businesses.",
+      "Learn about Cutona's mission to deliver smart, efficient software solutions for businesses. From GST billing to room booking management.",
     current_page: "about",
   },
 
   projects: {
-    fashion: {
-      meta_title: "Fashion Brand Design Project | Mayank Raj",
+    "cutona-hotel-booking": {
+      meta_title: "Cutona Hotel Booking Software | Smart Room Management",
       meta_description:
-        "Brand identity and social media design for a fashion brand, focused on visual consistency and engagement.",
+        "Complete hotel booking and room management software. Streamline reservations, manage availability, and enhance guest experience.",
       current_page: "projects",
     },
 
-    healthcare: {
-      meta_title: "Healthcare Branding Project | Mayank Raj",
+    "cutona-billing": {
+      meta_title: "Cutona Billing Software | Smart GST Invoicing System",
       meta_description:
-        "Professional brand identity and stationery design for a healthcare clinic.",
+        "Automate invoicing, track payments, and manage finances with Cutona's intelligent billing software. Perfect for small to medium businesses.",
       current_page: "projects",
     },
 
-    automobiles: {
-      meta_title: "Automobile Marketing Design Project | Mayank Raj",
+    "cutona-drone": {
+      meta_title: "Cutona Drone | Autonomous Aerial Solutions",
       meta_description:
-        "Creative marketing campaigns and visual design solutions for automobile brands.",
+        "Next-generation autonomous drone for aerial surveillance, delivery, and advanced reconnaissance missions.",
       current_page: "projects",
     },
 
-    events: {
-      meta_title: "Event Branding Design Project | Mayank Raj",
+    "cutona-laptop": {
+      meta_title: "Cutona Laptop | High-Performance Modular Laptop",
       meta_description:
-        "Event branding and promotional design for corporate and social events.",
+        "High-performance, modular laptop designed for developers and creators, featuring Cutona OS.",
       current_page: "projects",
     },
 
-    "hospitality-food": {
-      meta_title: "Hospitality & Food Branding Project | Mayank Raj",
+    "cutona-robot": {
+      meta_title: "Cutona Robot | AI-Powered Robotic Assistant",
       meta_description:
-        "Packaging, brand visuals, and design solutions for hospitality and food businesses.",
+        "AI-powered robotic assistant for industrial automation, healthcare support, and smart home integration.",
       current_page: "projects",
     },
 
-    fitness: {
-      meta_title: "Fitness Brand Design Project | Mayank Raj",
+    "cutona-iot": {
+      meta_title: "Cutona IoT Hub | Centralized IoT Management Platform",
       meta_description:
-        "Brand identity and social media design for fitness and wellness brands.",
+        "Centralized management platform for IoT devices, enabling seamless connectivity and data insights.",
+      current_page: "projects",
+    },
+
+    "big-quiz-system": {
+      meta_title: "Cutona Big Quiz Organizer | Large-Scale Quiz Management",
+      meta_description:
+        "Scalable quiz management system for 10,000+ students. Features registration, automated evaluation, and secure participation.",
+      current_page: "projects",
+    },
+
+    "bilday-gst-billing": {
+      meta_title:
+        "Bilday - GST Billing Software | Complete Business Accounting",
+      meta_description:
+        "Complete GST billing solution with sales, purchase, returns, stock management, multi-company support, and easy data import/export.",
+      current_page: "projects",
+    },
+
+    "roomera-booking": {
+      meta_title:
+        "Roomera - Room Booking Software | Smart Room Management System",
+      meta_description:
+        "Smart room booking system with amenities management, booking calendar, dynamic pricing, lead management, and flexible cancellation policies.",
       current_page: "projects",
     },
   },
 
   services: {
-    meta_title: "Services - Graphic Design & Branding | Mayank Raj",
+    meta_title: "Services - Software Solutions & Products | Cutona",
     meta_description:
-      "Graphic design, digital creatives, and brand support services for businesses looking to build a strong visual presence.",
+      "Explore Cutona's range of innovative software solutions including GST billing software, room booking systems, IoT platforms, and smart tech products.",
     current_page: "services",
   },
 
   testimonials: {
-    meta_title: "Client Testimonials | Mayank Raj",
+    meta_title: "Client Testimonials | Cutona",
     meta_description:
-      "What clients say about working with me. Feedback from business owners, professionals, and brands.",
+      "What our clients say about Cutona's software solutions. Feedback from business owners across hospitality, retail, and technology sectors.",
     current_page: "testimonials",
   },
 
   contact: {
-    meta_title: "Contact - Let's Work Together | Mayank Raj",
+    meta_title: "Contact Cutona - Get in Touch | Business Software Solutions",
     meta_description:
-      "Get in touch for serious design work that represents your brand properly. Email, phone, and WhatsApp available.",
+      "Contact Cutona for inquiries about our GST billing software, room booking systems, and other business solutions. Email, phone, and WhatsApp available.",
     current_page: "contact",
   },
 
   blog: {
-    meta_title: "Blog - Design Insights & Tips | Mayank Raj",
+    meta_title: "Blog - Insights & Updates | Cutona",
     meta_description:
-      "Articles on graphic design, branding, and visual strategy for businesses.",
+      "Articles on GST billing, business management, room booking systems, and technology trends for modern businesses.",
     current_page: "blog",
   },
 };
